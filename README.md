@@ -65,3 +65,18 @@ g++ -std=c++17 -O2 C.cpp -o game
 
 - Win10 1809+（需要控制台 VT processing 支持 ANSI 转义）
 - 或 macOS 10.15+（编 `C.cpp`）
+
+
+## Credits & Acknowledgements / 致谢
+
+This project (`parkour-game-cli`) is a macOS terminal port based on the original C++ logic and framework provided by my classmate and his Luogu team. 
+
+I have refactored the code, adapted it for the macOS terminal environment, and added new parkour gameplay features. 
+
+Special thanks to them for offering the original code and the foundation for this project!
+
+本项目基于我同班同学及其洛谷（Luogu）团队提供的原始 C++ 代码与逻辑框架修改而来。
+
+我在此基础上进行了重构，将其移植到了 macOS 终端环境，并添加了新的跑酷玩法。
+
+特别感谢他们提供的原始代码和项目灵感！没有他们踩过的坑，就没有这个终端版游戏。
